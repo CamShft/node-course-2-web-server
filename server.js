@@ -51,6 +51,7 @@ app.get('/about',(req,res)=>{
 app.get('/projects',(req,res)=>{
   res.render('projects.hbs',{
     pageTitle: 'This is my projects page',
+    welcomeMessage: 'project page test should go here',
   });
 });
 
