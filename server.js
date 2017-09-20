@@ -48,9 +48,9 @@ app.get('/about',(req,res)=>{
   });
 });
 
-app.get('/portfolio',(req,res)=>{
-  res.render('protfolio.hbs',{
-    pageTitle: 'This is my portfolio page',
+app.get('/projects',(req,res)=>{
+  res.render('projects.hbs',{
+    pageTitle: 'This is my projects page',
   });
 });
 
